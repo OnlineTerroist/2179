@@ -379,7 +379,7 @@ const baseUrl = './';
 const mapSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 480,
-  "projection": {"type": "mercator"},
+  "projection": {"type": "mercator", "center": [144.8, -37.8], "scale": 4500},
   "layer": [
     {
       "data": {"url": baseUrl + "melbourne_sa2.json", "format": {"type": "json", "property": "features"}},

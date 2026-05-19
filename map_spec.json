@@ -1,16 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Southern Calamari Sightings in Victoria",
-    "subtitle": "Each dot represents a recorded sighting. Colour shows the decade.",
-    "fontSize": 16,
-    "subtitleFontSize": 12,
-    "anchor": "start"
-  },
-  "width": 600,
-  "height": 500,
+  "width": "container",
+  "height": 480,
   "projection": {
-    "type": "mercator"
+    "type": "mercator",
+    "center": [
+      144.8,
+      -37.8
+    ],
+    "scale": 4500
   },
   "layer": [
     {
@@ -23,9 +21,9 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#e8f4ea",
-        "stroke": "#aacfb5",
-        "strokeWidth": 0.5
+        "fill": "#d4edf5",
+        "stroke": "#9ec8d8",
+        "strokeWidth": 0.6
       }
     },
     {
@@ -46,8 +44,8 @@
       ],
       "mark": {
         "type": "circle",
-        "opacity": 0.7,
-        "size": 40
+        "opacity": 0.75,
+        "size": 60
       },
       "encoding": {
         "longitude": {
@@ -64,6 +62,10 @@
           "title": "Decade",
           "scale": {
             "scheme": "blues"
+          },
+          "legend": {
+            "orient": "bottom-right",
+            "titleFontSize": 11
           }
         },
         "tooltip": [
@@ -76,11 +78,16 @@
             "title": "Year"
           },
           {
-            "field": "state",
-            "title": "State"
+            "field": "dataSource",
+            "title": "Data source"
           }
         ]
       }
     }
-  ]
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
 }
