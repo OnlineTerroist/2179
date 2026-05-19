@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "When Are Calamari Most Active?",
+    "subtitle": "Number of sightings by month across Australia",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "calamari_occurrences.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.month !== ''"
+    },
+    {
+      "calculate": "{'1':'Jan','2':'Feb','3':'Mar','4':'Apr','5':'May','6':'Jun','7':'Jul','8':'Aug','9':'Sep','10':'Oct','11':'Nov','12':'Dec'}[datum.month]",
+      "as": "monthName"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "color": "#1a6b8a",
+    "cornerRadiusTopLeft": 3,
+    "cornerRadiusTopRight": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "monthName",
+      "type": "ordinal",
+      "sort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "title": "Month",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "title": "Number of Sightings"
+    },
+    "color": {
+      "condition": {
+        "test": "datum.monthName === 'Mar'",
+        "value": "#e1fd2c"
+      },
+      "value": "#1a6b8a"
+    },
+    "tooltip": [
+      {
+        "field": "monthName",
+        "title": "Month"
+      },
+      {
+        "aggregate": "count",
+        "title": "Sightings"
+      }
+    ]
+  }
+}

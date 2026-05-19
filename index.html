@@ -1,11 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Chasing Calamari — Recreational Fishing in Victoria</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<style>
+  :root {
+    --ocean: #035772;
+    --deep: #02364a;
+    --foam: #e8f6f9;
+    --sand: #f5efe6;
+    --lime: #c8e830;
+    --text: #1a2b2f;
+    --muted: #607d87;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: var(--sand);
+    color: var(--text);
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  /* ── Hero ── */
+  .hero {
+    background: var(--deep);
+    color: #fff;
+    padding: 5rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 70% 50%, #0a6e8a44, transparent),
+                radial-gradient(ellipse 40% 80% at 20% 80%, #02364a88, transparent);
+    pointer-events: none;
+  }
+  .hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .hero-eyebrow {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lime);
+    margin-bottom: 1rem;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.4rem, 6vw, 4.5rem);
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--lime);
+  }
+  .hero-lead {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: #b8d8e4;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+  }
+  .hero-stats {
+    display: flex; gap: 2.5rem; flex-wrap: wrap;
+  }
+  .hero-stat strong {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--lime);
+    line-height: 1;
+  }
+  .hero-stat span {
+    font-size: 0.8rem;
+    color: #7fb8cb;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ocean);
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 700;
+    color: var(--deep);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #3a5260;
+    margin-bottom: 1rem;
+    max-width: 680px;
+  }
+
+  .chart-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 24px rgba(3,87,114,0.07);
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .chart-caption {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 1rem;
+    font-style: italic;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 700px) {
+    .two-col { grid-template-columns: 1fr; }
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #d5e8ed;
+    margin: 0;
+  }
+
+  .highlight-box {
+    background: var(--ocean);
+    color: #fff;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+  }
+  .highlight-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--lime);
+    margin-bottom: 0.5rem;
+  }
+  .highlight-box p {
+    color: #b8d8e4;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* ── Footer ── */
+  footer {
+    background: var(--deep);
+    color: #7fb8cb;
+    padding: 2.5rem 2rem;
+    font-size: 0.82rem;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  footer a { color: var(--lime); text-decoration: none; }
+  footer strong { color: #fff; }
+
+  /* Vega chart containers */
+  .vega-embed { width: 100% !important; }
+  .vega-embed canvas, .vega-embed svg { max-width: 100% !important; }
+</style>
 </head>
 <body>
-    <h1>aaaaa</h1>
+
+<!-- ══ HERO ══════════════════════════════════════════════════════ -->
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">🦑 Recreational Fishing · Victoria, Australia</p>
+    <h1>Chasing <em>Calamari</em><br>in Victoria's Waters</h1>
+    <p class="hero-lead">
+      Southern Calamari (<em>Sepioteuthis australis</em>) is one of Victoria's most prized
+      recreational catches — prized for the fight, the flavour, and the places it takes you.
+      This visualisation explores where, when, and how often Victorians encounter this
+      remarkable cephalopod.
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <strong>520</strong>
+        <span>Victorian sightings</span>
+      </div>
+      <div class="hero-stat">
+        <strong>March</strong>
+        <span>Peak season</span>
+      </div>
+      <div class="hero-stat">
+        <strong>140+</strong>
+        <span>Years of records</span>
+      </div>
+      <div class="hero-stat">
+        <strong>#1</strong>
+        <span>Calamari state by sightings</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══ SECTION 1: WHERE ══════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <p class="section-label">01 — Where to fish</p>
+    <h2>Victoria's Calamari Hotspots</h2>
+    <p>
+      Southern Calamari are found along Victoria's entire coastline, but sightings cluster
+      around Port Phillip Bay, Western Port, and the Mornington Peninsula —
+      all accessible from Melbourne. Each dot on the map is a confirmed sighting record,
+      coloured by the decade it was recorded. Darker dots are more recent.
+    </p>
+    <p>
+      You don't need to travel far. Some of the highest-density sighting zones are within
+      an hour's drive of the CBD.
+    </p>
+
+    <div class="chart-card">
+      <div id="map-chart"></div>
+      <p class="chart-caption">
+        Source: Atlas of Living Australia — Southern Calamari (<em>Sepioteuthis australis</em>)
+        occurrence records, Victorian Biodiversity Atlas. DOI: 10.26197/ala.96c5b17f-82c2-4a78-86a5-a89c357b2add
+      </p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- ══ SECTION 2: WHEN ══════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <p class="section-label">02 — When to fish</p>
+    <h2>Timing Is Everything</h2>
+    <p>
+      Calamari are not a year-round guarantee. The data tells a clear story:
+      <strong>March dominates</strong>, accounting for more sightings than any other month.
+      Summer through autumn (January–April) is prime time, when water temperatures
+      are warmest and squid move inshore to feed and spawn.
+    </p>
+    <p>
+      Winter months (June–September) see far fewer encounters, though dedicated anglers
+      still find them in deeper water off piers and jetties.
+    </p>
+
+    <div class="two-col">
+      <div class="chart-card">
+        <div id="monthly-chart"></div>
+        <p class="chart-caption">Monthly sightings — all Australian states combined.</p>
+      </div>
+      <div class="chart-card">
+        <div id="yearly-chart"></div>
+        <p class="chart-caption">Annual Victorian sightings since 1980. The spike in recent years reflects increased citizen science reporting.</p>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h3>🗓 Best windows to target calamari</h3>
+      <p>
+        February to April at dawn or dusk, in 2–8 metres of water around seagrass beds,
+        jetty pylons, and rock walls. Jig lures (size 2.0–3.0) in pink or orange
+        outperform bait on most days.
+      </p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- ══ SECTION 3: HOW VICTORIA COMPARES ════════════════════════ -->
+<section>
+  <div class="container">
+    <p class="section-label">03 — Victoria vs the nation</p>
+    <h2>Victoria Leads the Nation</h2>
+    <p>
+      With 520 recorded sightings, Victoria accounts for more Southern Calamari
+      observations than any other Australian state — ahead of New South Wales
+      and South Australia. This reflects both the species' preference for the cooler
+      waters of Bass Strait and Port Phillip Bay, and the size of Victoria's recreational
+      fishing community.
+    </p>
+
+    <div class="chart-card">
+      <div id="state-chart"></div>
+      <p class="chart-caption">
+        Total sightings per state from Atlas of Living Australia records. Victoria highlighted.
+      </p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- ══ SECTION 4: ABOUT THE DATA ════════════════════════════════ -->
+<section style="padding-bottom: 2rem;">
+  <div class="container">
+    <p class="section-label">04 — About this visualisation</p>
+    <h2>Data & Methods</h2>
+    <p>
+      This visualisation combines two publicly available datasets:
+    </p>
+    <ul style="color:#3a5260; padding-left:1.5rem; margin-bottom:1rem;">
+      <li><strong>Atlas of Living Australia</strong> — 2,077 occurrence records for
+        <em>Sepioteuthis australis</em>, filtered to records with valid coordinates.
+        DOI: <a href="https://doi.org/10.26197/ala.96c5b17f-82c2-4a78-86a5-a89c357b2add" style="color:var(--ocean);">10.26197/ala.96c5b17f</a>.
+        Licence: CC BY 4.0.
+      </li>
+      <li><strong>Australian Bureau of Statistics</strong> — Statistical Area 2 (SA2)
+        digital boundary files, 2021 edition (GDA2020). Used for the Melbourne base map.
+        Licence: CC BY 4.0.
+      </li>
+    </ul>
+    <p>
+      All visualisations were built with <strong>Vega-Lite v5</strong>. Geographic data
+      was simplified using Mapshaper to reduce file size while preserving boundary accuracy.
+      Analysis and data preparation in Python (pandas).
+    </p>
+  </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div>
+      <strong>Chasing Calamari in Victoria's Waters</strong><br>
+      Data Visualisation 2 · Monash University FIT2179 · S1 2026
+    </div>
+    <div>
+      Author: [Your Name] · May 2026<br>
+      Data: <a href="https://ala.org.au">Atlas of Living Australia</a> ·
+      <a href="https://abs.gov.au">ABS</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const baseUrl = './';
+
+// ── Map ──────────────────────────────────────────────────────────
+const mapSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 480,
+  "projection": {"type": "mercator"},
+  "layer": [
+    {
+      "data": {"url": baseUrl + "melbourne_sa2.json", "format": {"type": "json", "property": "features"}},
+      "mark": {"type": "geoshape", "fill": "#d4edf5", "stroke": "#9ec8d8", "strokeWidth": 0.6}
+    },
+    {
+      "data": {"url": baseUrl + "calamari_occurrences.csv"},
+      "transform": [
+        {"filter": "datum.state === 'Victoria'"},
+        {"filter": "datum.year !== ''"},
+        {"calculate": "floor(datum.year / 10) * 10", "as": "decade"}
+      ],
+      "mark": {"type": "circle", "opacity": 0.75, "size": 50},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {
+          "field": "decade", "type": "ordinal",
+          "title": "Decade",
+          "scale": {"scheme": "blues"},
+          "legend": {"orient": "bottom-right", "titleFontSize": 11}
+        },
+        "tooltip": [
+          {"field": "locality", "title": "Location"},
+          {"field": "year", "title": "Year"},
+          {"field": "dataSource", "title": "Data source"}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+};
+
+// ── Monthly bar ──────────────────────────────────────────────────
+const monthlySpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Sightings by Month", "anchor": "start", "fontSize": 14},
+  "width": "container", "height": 260,
+  "data": {"url": baseUrl + "calamari_occurrences.csv"},
+  "transform": [
+    {"filter": "datum.month !== ''"},
+    {
+      "calculate": "({'1':'Jan','2':'Feb','3':'Mar','4':'Apr','5':'May','6':'Jun','7':'Jul','8':'Aug','9':'Sep','10':'Oct','11':'Nov','12':'Dec'})[datum.month]",
+      "as": "monthName"
+    }
+  ],
+  "mark": {"type": "bar", "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "encoding": {
+    "x": {
+      "field": "monthName", "type": "ordinal",
+      "sort": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+      "title": null, "axis": {"labelAngle": 0, "labelFontSize": 11}
+    },
+    "y": {"aggregate": "count", "title": "Sightings", "axis": {"labelFontSize": 11}},
+    "color": {
+      "condition": {"test": "datum['monthName'] === 'Mar'", "value": "#035772"},
+      "value": "#9ec8d8"
+    },
+    "tooltip": [
+      {"field": "monthName", "title": "Month"},
+      {"aggregate": "count", "title": "Sightings"}
+    ]
+  },
+  "config": {"view": {"stroke": "transparent"}}
+};
+
+// ── Yearly line ──────────────────────────────────────────────────
+const yearlySpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Victorian Sightings per Year", "anchor": "start", "fontSize": 14},
+  "width": "container", "height": 260,
+  "data": {"url": baseUrl + "calamari_occurrences.csv"},
+  "transform": [
+    {"filter": "datum.state === 'Victoria'"},
+    {"filter": "datum.year !== '' && toNumber(datum.year) >= 1990"}
+  ],
+  "mark": {
+    "type": "line", "color": "#035772", "strokeWidth": 2.5,
+    "point": {"filled": true, "fill": "#035772", "size": 45, "strokeWidth": 0}
+  },
+  "encoding": {
+    "x": {
+      "field": "year", "type": "ordinal", "title": null,
+      "axis": {"labelAngle": -45, "labelFontSize": 10}
+    },
+    "y": {"aggregate": "count", "title": "Sightings", "axis": {"labelFontSize": 11}},
+    "tooltip": [
+      {"field": "year", "title": "Year"},
+      {"aggregate": "count", "title": "Sightings"}
+    ]
+  },
+  "config": {"view": {"stroke": "transparent"}}
+};
+
+// ── State bar ────────────────────────────────────────────────────
+const stateSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Sightings by State", "anchor": "start", "fontSize": 14},
+  "width": "container", "height": 280,
+  "data": {"url": baseUrl + "calamari_occurrences.csv"},
+  "transform": [
+    {"filter": "datum.state !== '' && datum.state !== 'North Island'"}
+  ],
+  "mark": {"type": "bar", "cornerRadiusEnd": 4},
+  "encoding": {
+    "y": {
+      "field": "state", "type": "nominal", "sort": "-x",
+      "title": null, "axis": {"labelFontSize": 12}
+    },
+    "x": {
+      "aggregate": "count", "title": "Number of Sightings",
+      "axis": {"labelFontSize": 11}
+    },
+    "color": {
+      "condition": {"test": "datum.state === 'Victoria'", "value": "#035772"},
+      "value": "#9ec8d8"
+    },
+    "tooltip": [
+      {"field": "state", "title": "State"},
+      {"aggregate": "count", "title": "Sightings"}
+    ]
+  },
+  "config": {"view": {"stroke": "transparent"}}
+};
+
+// ── Embed all ────────────────────────────────────────────────────
+const opts = {renderer: 'svg', actions: false};
+vegaEmbed('#map-chart', mapSpec, opts);
+vegaEmbed('#monthly-chart', monthlySpec, opts);
+vegaEmbed('#yearly-chart', yearlySpec, opts);
+vegaEmbed('#state-chart', stateSpec, opts);
+</script>
 </body>
 </html>

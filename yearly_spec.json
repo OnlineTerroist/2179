@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Southern Calamari Sightings Over Time",
+    "subtitle": "Annual recorded sightings in Victoria (1980\u20132026)",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 280,
+  "data": {
+    "url": "calamari_occurrences.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.state === 'Victoria'"
+    },
+    {
+      "filter": "datum.year !== '' && toNumber(datum.year) >= 1980"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": "#035772",
+    "strokeWidth": 2,
+    "point": {
+      "filled": true,
+      "fill": "#035772",
+      "size": 40
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "title": "Sightings"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "title": "Year"
+      },
+      {
+        "aggregate": "count",
+        "title": "Sightings"
+      }
+    ]
+  }
+}
