@@ -39,6 +39,8 @@
   .stat-box{background:#fff;border-radius:12px;padding:1.5rem 2rem;flex:1;min-width:140px;box-shadow:0 2px 12px rgba(3,87,114,0.06);border-left:4px solid var(--ocean);}
   .stat-box strong{display:block;font-family:'Playfair Display',serif;font-size:2rem;color:var(--ocean);line-height:1;}
   .stat-box span{font-size:0.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;}
+  .annotation-box{background:#f0f7fa;border-left:4px solid var(--ocean);border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin-top:1rem;font-size:0.9rem;color:#3a5260;}
+  .annotation-box strong{color:var(--ocean);}
   footer{background:var(--deep);color:#7fb8cb;padding:2.5rem 2rem;font-size:0.82rem;}
   footer .container{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1.5rem;}
   footer a{color:var(--lime);text-decoration:none;}
@@ -53,7 +55,7 @@
   <div class="hero-inner">
     <p class="hero-eyebrow">🦑 Recreational Fishing · Victoria, Australia</p>
     <h1>Chasing <em>Calamari</em><br>in Victoria's Waters</h1>
-    <p class="hero-lead">Southern Calamari (<em>Sepioteuthis australis</em>) is one of Victoria's most prized recreational catches. This visualisation explores where, when, and how often Victorians encounter this remarkable cephalopod — and how citizen science is transforming our understanding of it.</p>
+    <p class="hero-lead">Southern Calamari (<em>Sepioteuthis australis</em>) is one of Victoria's most fun recreational catches. This visualisation explores where, when, and how often Victorians encounter this remarkable creature — and how citizen science is transforming our understanding of it.</p>
     <div class="hero-stats">
       <div class="hero-stat"><strong>520</strong><span>Victorian sightings</span></div>
       <div class="hero-stat"><strong>March</strong><span>Peak season</span></div>
@@ -69,38 +71,66 @@
     <p class="section-label">01 — Where to fish</p>
     <h2>Victoria's Calamari Hotspots</h2>
     <p>Southern Calamari cluster around Port Phillip Bay, Western Port, and the Mornington Peninsula — all within an hour's drive of Melbourne. Each dot represents a confirmed sighting, coloured by the decade it was recorded. Darker dots are more recent.</p>
-    <div class="chart-card">
+    <p>The highest concentration of sightings is along the inner bay coastline from Williamstown through to Mornington and Sorrento. These calm, shallow waters with abundant seagrass beds provide ideal feeding grounds for calamari year-round.</p>
+    <div class="chart-card" style="background:#6aadce;padding:0;overflow:hidden;">
       <div id="map-chart"></div>
-      <p class="chart-caption">Source: Atlas of Living Australia — <em>Sepioteuthis australis</em> occurrence records. DOI: 10.26197/ala.96c5b17f-82c2-4a78-86a5-a89c357b2add. Licence: CC BY 4.0.</p>
+    </div>
+    <div class="annotation-box">
+      <strong>How to read this map:</strong> Each dot is one confirmed calamari sighting from the Atlas of Living Australia database. Colour shows the decade — light blue dots are older records (1930s–1980s), dark blue are recent (2010s–2020s). Hover over any dot to see the exact location, year, and data source.
     </div>
   </div>
 </section>
 
 <hr class="divider"/>
+<section style="padding:2rem 0;">
+  <div class="container">
+    <div class="two-col" style="margin-top:0;align-items:stretch;">
+      <img src="Sorrento.png" alt="Calamari caught at Sorrento" style="width:100%;border-radius:12px;">
+      <img src="Mornington.png" alt="Calamari caught at Mornington" style="width:100%;border-radius:12px;">
+    </div>
+    <p style="margin-top:1rem;font-size:0.85rem;color:var(--muted);font-style:italic;">Left: Caught at Sorrento. Right: Caught from Mornington. Both caught in May 2026 using a bright 3.5 pink jig.</p>
+    <img src="Jig.png" style="width:100%;border-radius:12px;margin-top:1rem;">
+  </div>
+</section>
 
 <!-- 02 WHEN -->
 <section>
+
   <div class="container">
     <p class="section-label">02 — When to fish</p>
     <h2>Timing Is Everything</h2>
-    <p>The data tells a clear story: <strong>March dominates</strong> with 253 Victorian sightings — nearly five times the next busiest month. Summer through autumn is prime time, when water temperatures peak and squid move inshore to feed and spawn.</p>
+    <p>The data tells a clear story: <strong>March dominates</strong> with 253 Victorian sightings in March — nearly five times the next busiest month. Summer through autumn is prime time, when water temperatures peak and squid move inshore to feed and spawn.</p>
+    <p>Winter months (June–August) see far fewer sightings. Calamari move to deeper offshore water in cooler months, making them harder to reach from shore or jetties. September marks the beginning of the spring return.</p>
     <div class="two-col">
       <div class="chart-card">
-        <div id="monthly-chart"></div>
-        <p class="chart-caption">Monthly sightings across all Australian states. March highlighted.</p>
+        <div id="radial-chart"></div>
+        <p class="chart-caption">Radial chart of Victorian sightings by month. The length of each segment shows relative sighting frequency — March extends far beyond all other months.</p>
+        <div class="annotation-box" style="margin-top:0.75rem;">
+          <strong>How to read:</strong> The longer the segment, the more sightings in that month. The inner ring represents zero sightings; the outer edge represents the maximum (March, 253).
+        </div>
       </div>
       <div class="chart-card">
-        <div id="radial-chart"></div>
-        <p class="chart-caption">Radial chart showing the seasonal pattern of Victorian calamari sightings. Each segment represents one month — the longer the bar, the more sightings.</p>
+        <div id="monthly-chart"></div>
+        <p class="chart-caption">Monthly sightings across all Australian states. The dark bar highlights March — the peak month for calamari encounters.</p>
+        <div class="annotation-box" style="margin-top:0.75rem;">
+          <strong>Key insight:</strong> March accounts for more sightings than June, July, and August combined. Plan your trip around the autumn run.
+        </div>
       </div>
+      
     </div>
     <div class="chart-card" style="margin-top:1.5rem;">
       <div id="heatmap-chart"></div>
-      <p class="chart-caption">Heatmap of Victorian sightings by month and decade. The 1990s spike reflects the Port Phillip Bay Environmental Study trawl surveys.</p>
+      <p class="chart-caption">Heatmap of Victorian sightings by month and decade. Darker cells = more sightings. Each row is a month; each column is a decade.</p>
+      <div class="annotation-box" style="margin-top:0.75rem;">
+        <strong>What stands out:</strong> The 1990s March cell is very dark — this reflects a single large scientific trawl survey (the Port Phillip Bay Environmental Study, 1992–1996) that captured hundreds of records. The 2020s show a much broader seasonal spread, driven by recreational anglers recording sightings across more months.
+      </div>
     </div>
     <div class="chart-card" style="margin-top:1.5rem;">
       <div id="yearly-chart"></div>
-      <p class="chart-caption">Annual Victorian sightings since 1990. The surge from 2020 reflects the rise of iNaturalist citizen science reporting.</p>
+      <p class="chart-caption">Annual Victorian sightings since 1990. The shaded area shows the total volume; the line tracks the trend year by year.</p>
+      <div class="annotation-box" style="margin-top:0.75rem;">
+        <strong>The iNaturalist effect:</strong> Before 2019, fewer than 10 Victorian sightings were recorded per year. After iNaturalist became widely used by recreational anglers, annual sightings jumped to 40–60 per year. This doesn't mean more calamari — it means more people are recording what they catch.
+      </div>
     </div>
     <div class="highlight-box">
       <h3>🗓 Best windows to target calamari</h3>
@@ -117,14 +147,21 @@
     <p class="section-label">03 — The citizen science boom</p>
     <h2>Anglers Are Changing the Data</h2>
     <p>Until recently, most calamari records came from scientific trawl surveys. Today, recreational anglers using iNaturalist are the single largest source of Victorian records — transforming what we know about where and when calamari appear.</p>
+    <p>This shift matters because citizen scientists fish in different places at different times than research vessels. Their records reveal inshore, shallow-water hotspots that trawl surveys miss entirely.</p>
     <div class="two-col">
       <div class="chart-card">
         <div id="source-chart"></div>
-        <p class="chart-caption">Victorian sightings by data source. iNaturalist and the 1990s Port Phillip Bay Study dominate.</p>
+        <p class="chart-caption">Victorian sightings by data source. iNaturalist (recreational anglers) now rivals the 1990s Port Phillip Bay research program.</p>
+        <div class="annotation-box" style="margin-top:0.75rem;">
+          <strong>Two eras of data:</strong> The Port Phillip Bay Study (1992–1996) was a government-funded scientific trawl survey. iNaturalist records are submitted by everyday anglers via a free smartphone app — a completely different way of collecting biodiversity data.
+        </div>
       </div>
       <div class="chart-card">
         <div id="cumulative-chart"></div>
-        <p class="chart-caption">Cumulative Victorian sightings since 2000. The steep rise after 2019 marks the citizen science era.</p>
+        <p class="chart-caption">Cumulative Victorian sightings since 2000. The curve accelerates sharply after 2019 as iNaturalist adoption grew among Australian anglers.</p>
+        <div class="annotation-box" style="margin-top:0.75rem;">
+          <strong>Exponential growth:</strong> It took nearly 20 years (2000–2019) to accumulate 48 Victorian records. The next 48 records arrived in just two years (2019–2021).
+        </div>
       </div>
     </div>
   </div>
@@ -138,14 +175,19 @@
     <p class="section-label">04 — Victoria vs the nation</p>
     <h2>Victoria Leads the Nation</h2>
     <p>With 520 recorded sightings, Victoria accounts for more Southern Calamari observations than any other Australian state. This reflects the species' preference for the cooler waters of Bass Strait and Port Phillip Bay, and the size of Victoria's recreational fishing community.</p>
-    <div class="two-col">
-      <div class="chart-card">
-        <div id="state-chart"></div>
-        <p class="chart-caption">Total sightings per state. Victoria highlighted.</p>
+    <p>New South Wales and South Australia also have strong records, but neither matches Victoria's combination of suitable habitat and engaged angler community.</p>
+    <div class="chart-card">
+      <div id="state-chart"></div>
+      <p class="chart-caption">Total sightings per state from Atlas of Living Australia records. Victoria (dark bar) leads all other states.</p>
+      <div class="annotation-box" style="margin-top:0.75rem;">
+        <strong>Why Victoria leads:</strong> Port Phillip Bay is a sheltered, productive marine environment that Southern Calamari thrive in. Combined with Victoria's large population of recreational fishers and strong iNaturalist uptake, it results in more recorded sightings than anywhere else in Australia.
       </div>
-      <div class="chart-card">
-        <div id="state-trend-chart"></div>
-        <p class="chart-caption">Annual sightings for the top 3 states since 2015, showing Victoria's recent growth.</p>
+    </div>
+    <div class="chart-card" style="margin-top:1.5rem;">
+      <div id="state-trend-chart"></div>
+      <p class="chart-caption">Annual sightings for the top 3 states since 2015. Each coloured line tracks one state — hover to see exact yearly counts.</p>
+      <div class="annotation-box" style="margin-top:0.75rem;">
+        <strong>New South Wales surging:</strong> NSW sightings spiked to over 90 in 2025, likely reflecting a combination of increased iNaturalist use and a strong calamari season along the NSW coast. Victoria's numbers also peaked around the same time before dropping in 2026 — possibly reflecting seasonal variation or reduced reporting.
       </div>
     </div>
     <div class="stat-row">
@@ -165,10 +207,14 @@
   <div class="container">
     <p class="section-label">05 — Decade by decade</p>
     <h2>How Seasons Have Shifted</h2>
-    <p>This dot strip plot shows the distribution of Victorian sightings by month across each decade. The March peak is consistent across all decades, but recent years show a broader spread — more anglers recording sightings in summer and early autumn months.</p>
+    <p>This bubble strip plot shows the distribution of Victorian sightings by month across each decade. Each bubble represents a decade–month combination, and the size shows how many sightings were recorded in that period.</p>
+    <p>The March dominance is consistent across all decades, but a striking shift has occurred in the 2020s — sightings are now spread across nearly every month of the year, something that was not seen in earlier decades.</p>
     <div class="chart-card">
       <div id="strip-chart"></div>
-      <p class="chart-caption">Each dot represents one recorded sighting. Dot size reflects relative count within each decade–month combination. Victorian records only, 1980–2026.</p>
+      <p class="chart-caption">Bubble size = number of sightings. Larger bubbles = more sightings in that decade–month combination. Victorian records only, 1980–2026.</p>
+      <div class="annotation-box" style="margin-top:0.75rem;">
+        <strong>What changed in the 2020s:</strong> Earlier decades show sightings concentrated in just a few months (especially March). The 2020s row shows large bubbles across January, February, October, November, and December — reflecting year-round angler activity and consistent iNaturalist reporting rather than a genuine change in calamari behaviour.
+      </div>
     </div>
   </div>
 </section>
@@ -200,16 +246,18 @@
 const baseUrl = './';
 const opts = {renderer: 'svg', actions: false};
 
-// ── 1. MAP ───────────────────────────────────────────────────────
 const mapSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 480,
-  "projection": {"type": "mercator", "center": [144.9, -38.1], "scale": 9000},
+  "projection": {"type": "mercator", "center": [145.0, -38.3], "scale": 13000},
   "layer": [
     {
-      "data": {"url": "https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/australian-states.min.geojson", "format": {"type": "json", "property": "features"}},
-      "transform": [{"filter": "datum.properties.STATE_NAME === 'Victoria'"}],
-      "mark": {"type": "geoshape", "fill": "#c8dea8", "stroke": "#8fad6a", "strokeWidth": 0.8}
+      "data": {"url": baseUrl + "victoria_sa2.json", "format": {"type": "json", "property": "features"}},
+      "mark": {"type": "geoshape", "fill": "#d4e8c2", "stroke": "#9ab87a", "strokeWidth": 0.3}
+    },
+    {
+      "data": {"url": baseUrl + "melbourne_sa2.json", "format": {"type": "json", "property": "features"}},
+      "mark": {"type": "geoshape", "fill": "#d4e8c2", "stroke": "#7a9a5a", "strokeWidth": 0.7}
     },
     {
       "data": {"url": baseUrl + "calamari_occurrences.csv"},
@@ -227,13 +275,12 @@ const mapSpec = {
       }
     }
   ],
-  "config": {"view": {"stroke": "transparent", "fill": "#a8d0e6"}}
+  "config": {"view": {"stroke": "transparent", "fill": "transparent"}, "background": "transparent"}
 };
 
-// ── 2. MONTHLY BAR ───────────────────────────────────────────────
 const monthlySpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Sightings by Month", "anchor": "start", "fontSize": 14},
+  "title": {"text": "Sightings around Australia by Month", "anchor": "start", "fontSize": 14},
   "width": "container", "height": 240,
   "data": {"url": baseUrl + "calamari_occurrences.csv"},
   "transform": [
@@ -250,11 +297,10 @@ const monthlySpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 3. RADIAL CHART (custom HD) ──────────────────────────────────
 const radialSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Seasonal Pattern — Victoria", "anchor": "start", "fontSize": 14},
-  "width": "container", "height": 280,
+  "width": "container", "height": 320,
   "data": {
     "values": [
       {"month":"Jan","monthNum":1,"count":49},{"month":"Feb","monthNum":2,"count":54},
@@ -270,17 +316,13 @@ const radialSpec = {
       "mark": {"type": "arc", "innerRadius": 30, "stroke": "#fff", "strokeWidth": 1},
       "encoding": {
         "theta": {"field": "monthNum", "type": "ordinal", "sort": "ascending"},
-        "radius": {"field": "count", "type": "quantitative", "scale": {"rangeMin": 30}},
-        "color": {
-          "field": "count", "type": "quantitative",
-          "scale": {"scheme": "blues", "domainMin": 0},
-          "legend": {"title": "Sightings", "orient": "right"}
-        },
+        "radius": {"field": "count", "type": "quantitative", "scale": {"rangeMin": 30, "rangeMax": 110}},
+        "color": {"field": "count", "type": "quantitative", "scale": {"scheme": "blues", "domainMin": 0}, "legend": {"title": "Sightings", "orient": "right"}},
         "tooltip": [{"field": "month", "title": "Month"}, {"field": "count", "title": "Victorian Sightings"}]
       }
     },
     {
-      "mark": {"type": "text", "radius": 110, "fontSize": 11, "fontWeight": 600, "color": "#3a5260"},
+      "mark": {"type": "text", "radius": 130, "fontSize": 11, "fontWeight": 600, "color": "#3a5260"},
       "encoding": {
         "theta": {"field": "monthNum", "type": "ordinal", "sort": "ascending"},
         "text": {"field": "month", "type": "nominal"}
@@ -290,7 +332,6 @@ const radialSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 4. HEATMAP ───────────────────────────────────────────────────
 const heatmapSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Victorian Sightings — Month × Decade", "anchor": "start", "fontSize": 14},
@@ -312,13 +353,12 @@ const heatmapSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 5. YEARLY AREA+LINE ──────────────────────────────────────────
 const yearlySpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Victorian Sightings per Year (1990–2026)", "anchor": "start", "fontSize": 14},
+  "title": {"text": "Victorian Sightings per Year (2000–2026)", "anchor": "start", "fontSize": 14},
   "width": "container", "height": 220,
   "data": {"url": baseUrl + "calamari_occurrences.csv"},
-  "transform": [{"filter": "datum.state === 'Victoria' && datum.year !== '' && toNumber(datum.year) >= 1990"}],
+  "transform": [{"filter": "datum.state === 'Victoria' && datum.year !== '' && toNumber(datum.year) >= 2000"}],
   "layer": [
     {"mark": {"type": "area", "color": "#035772", "opacity": 0.12, "line": false},
      "encoding": {"x": {"field": "year", "type": "ordinal", "title": null, "axis": {"labelAngle": -45, "labelFontSize": 10}}, "y": {"aggregate": "count", "title": "Sightings"}}},
@@ -328,7 +368,6 @@ const yearlySpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 6. SOURCE BAR ────────────────────────────────────────────────
 const sourceSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Where Do Records Come From?", "anchor": "start", "fontSize": 14},
@@ -348,7 +387,6 @@ const sourceSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 7. CUMULATIVE ────────────────────────────────────────────────
 const cumulativeSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Cumulative Victorian Sightings (2000–2026)", "anchor": "start", "fontSize": 14},
@@ -374,7 +412,6 @@ const cumulativeSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 8. STATE BAR ─────────────────────────────────────────────────
 const stateSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Sightings by State", "anchor": "start", "fontSize": 14},
@@ -391,11 +428,10 @@ const stateSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 9. STATE TREND ───────────────────────────────────────────────
 const stateTrendSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Top 3 States Since 2015", "anchor": "start", "fontSize": 14},
-  "width": "container", "height": 240,
+  "title": {"text": "Top 3 States Since 2015 — Annual Sightings", "anchor": "start", "fontSize": 14},
+  "width": "container", "height": 320,
   "data": {"url": baseUrl + "calamari_occurrences.csv"},
   "transform": [{"filter": "datum.year !== '' && toNumber(datum.year) >= 2015 && (datum.state === 'Victoria' || datum.state === 'New South Wales' || datum.state === 'South Australia')"}],
   "mark": {"type": "line", "strokeWidth": 2.5, "point": {"filled": true, "size": 40, "strokeWidth": 0}},
@@ -408,14 +444,13 @@ const stateTrendSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── 10. STRIP DOT PLOT (custom HD) ──────────────────────────────
 const stripSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Monthly Sighting Distribution by Decade", "anchor": "start", "fontSize": 14},
   "width": "container", "height": 280,
   "data": {"values": [
     {"decade":"1980s","month":"Jan","monthNum":1,"count":0},{"decade":"1980s","month":"Feb","monthNum":2,"count":6},{"decade":"1980s","month":"Mar","monthNum":3,"count":1},{"decade":"1980s","month":"Nov","monthNum":11,"count":3},{"decade":"1980s","month":"Dec","monthNum":12,"count":0},
-    {"decade":"1990s","month":"Jan","monthNum":1,"count":1},{"decade":"1990s","month":"Feb","monthNum":2,"count":0},{"decade":"1990s","month":"Mar","monthNum":3,"count":217},{"decade":"1990s","month":"Apr","monthNum":4,"count":5},{"decade":"1990s","month":"May","monthNum":5,"count":1},{"decade":"1990s","month":"Jul","monthNum":7,"count":1},{"decade":"1990s","month":"Aug","monthNum":8,"count":5},{"decade":"1990s","month":"Dec","monthNum":12,"count":1},
+    {"decade":"1990s","month":"Jan","monthNum":1,"count":1},{"decade":"1990s","month":"Feb","monthNum":2,"count":0},{"decade":"1990s","month":"Mar","monthNum":3,"count":2},{"decade":"1990s","month":"Apr","monthNum":4,"count":5},{"decade":"1990s","month":"May","monthNum":5,"count":1},{"decade":"1990s","month":"Jul","monthNum":7,"count":1},{"decade":"1990s","month":"Aug","monthNum":8,"count":5},{"decade":"1990s","month":"Dec","monthNum":12,"count":1},
     {"decade":"2000s","month":"Jan","monthNum":1,"count":8},{"decade":"2000s","month":"Feb","monthNum":2,"count":1},{"decade":"2000s","month":"Mar","monthNum":3,"count":1},{"decade":"2000s","month":"Apr","monthNum":4,"count":1},{"decade":"2000s","month":"May","monthNum":5,"count":1},{"decade":"2000s","month":"Nov","monthNum":11,"count":1},
     {"decade":"2010s","month":"Jan","monthNum":1,"count":7},{"decade":"2010s","month":"Feb","monthNum":2,"count":9},{"decade":"2010s","month":"Mar","monthNum":3,"count":8},{"decade":"2010s","month":"Apr","monthNum":4,"count":9},{"decade":"2010s","month":"May","monthNum":5,"count":4},{"decade":"2010s","month":"Jun","monthNum":6,"count":2},{"decade":"2010s","month":"Jul","monthNum":7,"count":2},{"decade":"2010s","month":"Aug","monthNum":8,"count":2},{"decade":"2010s","month":"Sep","monthNum":9,"count":2},{"decade":"2010s","month":"Oct","monthNum":10,"count":6},{"decade":"2010s","month":"Nov","monthNum":11,"count":9},{"decade":"2010s","month":"Dec","monthNum":12,"count":12},
     {"decade":"2020s","month":"Jan","monthNum":1,"count":33},{"decade":"2020s","month":"Feb","monthNum":2,"count":38},{"decade":"2020s","month":"Mar","monthNum":3,"count":26},{"decade":"2020s","month":"Apr","monthNum":4,"count":13},{"decade":"2020s","month":"May","monthNum":5,"count":6},{"decade":"2020s","month":"Jun","monthNum":6,"count":8},{"decade":"2020s","month":"Jul","monthNum":7,"count":3},{"decade":"2020s","month":"Aug","monthNum":8,"count":3},{"decade":"2020s","month":"Sep","monthNum":9,"count":9},{"decade":"2020s","month":"Oct","monthNum":10,"count":18},{"decade":"2020s","month":"Nov","monthNum":11,"count":17},{"decade":"2020s","month":"Dec","monthNum":12,"count":18}
@@ -432,7 +467,6 @@ const stripSpec = {
   "config": {"view": {"stroke": "transparent"}}
 };
 
-// ── Embed all ─────────────────────────────────────────────────────
 vegaEmbed('#map-chart', mapSpec, opts);
 vegaEmbed('#monthly-chart', monthlySpec, opts);
 vegaEmbed('#radial-chart', radialSpec, opts);
