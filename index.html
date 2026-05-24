@@ -72,9 +72,8 @@
     <h2>Victoria's Calamari Hotspots</h2>
     <p>Southern Calamari cluster around Port Phillip Bay, Western Port, and the Mornington Peninsula — all within an hour's drive of Melbourne. Each dot represents a confirmed sighting, coloured by the decade it was recorded. Darker dots are more recent.</p>
     <p>The highest concentration of sightings is along the inner bay coastline from Williamstown through to Mornington and Sorrento. These calm, shallow waters with abundant seagrass beds provide ideal feeding grounds for calamari year-round.</p>
-    <div class="chart-card" style="background:#6aadce;padding:0;overflow:hidden;">
-        <div id="map-chart"></div>
-    </div>
+<div class="chart-card" style="background:#6aadce;padding:0;overflow:hidden;">    <div id="map-chart"></div>
+</div>
     <div class="annotation-box">
       <strong>How to read this map:</strong> Each dot is one confirmed calamari sighting from the Atlas of Living Australia database. Colour shows the decade — light blue dots are 2000s, dark blue are recent 2020s. Hover over any dot to see the exact location, year, and data source.
     </div>
@@ -227,14 +226,14 @@
       <li style="margin-bottom:0.5rem;"><strong>Atlas of Living Australia</strong> — 2,077 occurrence records for <em>Sepioteuthis australis</em>, filtered to 1,939 records with valid coordinates. DOI: <a href="https://doi.org/10.26197/ala.96c5b17f-82c2-4a78-86a5-a89c357b2add" style="color:var(--ocean);">10.26197/ala.96c5b17f</a>. Licence: CC BY 4.0.</li>
       <li><strong>Australian Bureau of Statistics</strong> — SA2 digital boundary files, 2021 edition (GDA2020). Licence: CC BY 4.0.</li>
     </ul>
-    <p>All charts were built with <strong>Vega-Lite v5</strong>. Geographic data simplified using Mapshaper. Data preparation in Python. Generative AI (Claude, Anthropic) was used to assist with code generation and data processing.</p>
+    <p>All charts were built with <strong>Vega-Lite v5</strong>. Geographic data simplified using Mapshaper. Data preparation done by me. Generative AI (Claude, Anthropic) was used to assist with code generation and report writing.</p>
   </div>
 </section>
 
 <footer>
   <div class="container">
     <div><strong>Chasing Calamari in Victoria's Waters</strong><br>Data Visualisation 2 · FIT2179 · Monash University · S1 2026</div>
-    <div>Author: [Your Name] · May 2026<br>Data: <a href="https://ala.org.au">Atlas of Living Australia</a> · <a href="https://abs.gov.au">ABS</a></div>
+    <div>Author: JingXuan Yao · 24 May 2026<br>Data: <a href="https://ala.org.au">Atlas of Living Australia</a> · <a href="https://abs.gov.au">ABS</a></div>
   </div>
 </footer>
 
@@ -248,14 +247,22 @@ const mapSpec = {
   "background": "transparent",
   "projection": {
     "type": "mercator",
-    "center": [144.7, -38.2],
-    "scale": 22000
+    "center": [144.9, -38.3],
+    "scale": 18000
   },
   "layer": [
-    {
-      "data": {"url": "victoria_sa2_clipped.json", "format": {"type": "json", "property": "features"}},
-      "mark": {"type": "geoshape", "fill": "#d4e8c2", "stroke": "#8aaa6a", "strokeWidth": 0.3, "strokeOpacity": 0.6}
-    },
+      {
+    "data": {"url": "melbourne_outline.json"},
+    "mark": {"type": "geoshape", "fill": "#6aadce", "stroke": null}
+  },
+  {
+    "data": {"url": "victoria_sa2.json", "format": {"type": "json", "property": "features"}},
+    "mark": {"type": "geoshape", "fill": "#d4e8c2", "stroke": null}
+  },
+  {
+    "data": {"url": "victoria_sa2.json", "format": {"type": "json", "property": "features"}},
+    "mark": {"type": "geoshape", "fill": null, "stroke": "#5a8a3a", "strokeWidth": 0.4}
+  },
     {
       "data": {"url": "calamari_occurrences.csv"},
       "transform": [
