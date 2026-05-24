@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Where Is Southern Calamari Found?",
+    "subtitle": "Total sightings by Australian state",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "anchor": "start"
+  },
+  "width": 400,
+  "height": 250,
+  "data": {
+    "url": "calamari_occurrences.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.state !== ''"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3
+  },
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": "-x",
+      "title": "State"
+    },
+    "x": {
+      "aggregate": "count",
+      "title": "Number of Sightings"
+    },
+    "color": {
+      "condition": {
+        "test": "datum.state === 'Victoria'",
+        "value": "#035772"
+      },
+      "value": "#a8d5e2"
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "title": "State"
+      },
+      {
+        "aggregate": "count",
+        "title": "Sightings"
+      }
+    ]
+  }
+}
