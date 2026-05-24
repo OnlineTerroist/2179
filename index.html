@@ -72,7 +72,7 @@
     <h2>Victoria's Calamari Hotspots</h2>
     <p>Southern Calamari cluster around Port Phillip Bay, Western Port, and the Mornington Peninsula — all within an hour's drive of Melbourne. Each dot represents a confirmed sighting, coloured by the decade it was recorded. Darker dots are more recent.</p>
     <p>The highest concentration of sightings is along the inner bay coastline from Williamstown through to Mornington and Sorrento. These calm, shallow waters with abundant seagrass beds provide ideal feeding grounds for calamari year-round.</p>
-<div class="chart-card" style="background:#6aadce;padding:0;overflow:hidden;">    <div id="map-chart"></div>
+<div class="chart-card" style="background:#d4e8c2;padding:0;overflow:hidden;">    <div id="map-chart"></div>
 </div>
     <div class="annotation-box">
       <strong>How to read this map:</strong> Each dot is one confirmed calamari sighting from the Atlas of Living Australia database. Colour shows the decade — light blue dots are 2000s, dark blue are recent 2020s. Hover over any dot to see the exact location, year, and data source.
@@ -253,10 +253,6 @@ const mapSpec = {
   "layer": [
       {
     "data": {"url": "melbourne_outline.json"},
-    "mark": {"type": "geoshape", "fill": "#6aadce", "stroke": null}
-  },
-  {
-    "data": {"url": "victoria_sa2.json", "format": {"type": "json", "property": "features"}},
     "mark": {"type": "geoshape", "fill": "#d4e8c2", "stroke": null}
   },
   {
