@@ -50,13 +50,10 @@ year,month,state,locality,lat,lon,dataSource
 2021,7,New South Wales,,-33.839417,151.253091,iNaturalist Australia
 2025,5,Western Australia,,-32.00388,115.747812,iNaturalist Australia
 2017,11,New South Wales,,-33.800265,151.296846,iNaturalist Australia
-1999,1,New South Wales,,-34.069105,151.129764,iNaturalist Australia
 2022,1,New South Wales,,-33.800419,151.296089,iNaturalist Australia
 2024,10,Western Australia,,-33.852603,121.903062,iNaturalist Australia
-1999,4,New South Wales,,-33.839343,151.278541,iNaturalist Australia
 2022,12,New South Wales,,-33.839833,151.253648,iNaturalist Australia
 2024,2,New South Wales,,-34.597428,150.900209,iNaturalist Australia
-1996,1,Victoria,,-38.520426,145.36422,iNaturalist Australia
 2025,3,New South Wales,,-35.85971,150.180566,iNaturalist Australia
 2020,12,South Australia,,-34.976711,138.420939,iNaturalist Australia
 2026,1,Western Australia,,-33.669101,114.994951,iNaturalist Australia
@@ -716,7 +713,6 @@ year,month,state,locality,lat,lon,dataSource
 2022,3,South Australia,,-34.980386,138.507741,iNaturalist Australia
 2018,1,South Australia,,-34.855468,135.960854,iNaturalist Australia
 2020,12,New South Wales,,-37.215833,150.015,iNaturalist Australia
-1993,2,South Australia,,-34.977931,138.509496,iNaturalist Australia
 2026,3,Western Australia,,-33.644531,115.345035,iNaturalist Australia
 2022,3,Western Australia,,-32.137819,115.744029,iNaturalist Australia
 2025,1,New South Wales,,-35.505134,150.395375,iNaturalist Australia
@@ -1014,228 +1010,6 @@ year,month,state,locality,lat,lon,dataSource
 2000,3,Tasmania,,-43.08944,147.284089,"Biology of Southern Ocean squid, ecological importance and potential commercial implications - a preliminary assessment 1995/2006"
 2000,3,Tasmania,,-43.08944,147.284089,"Biology of Southern Ocean squid, ecological importance and potential commercial implications - a preliminary assessment 1995/2006"
 2001,12,Tasmania,Graveyard Point Transect 3,-42.6161,147.9413,"Restoration of String Kelp (Macrocystis pyrifera) habitat on Tasmania's east and south coasts: fish, invertebrate and algae counts, Australia (1998-2002)"
-1990,3,Victoria,,-38.03583,144.77333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03567,145.01183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25417,145.00333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25417,145.00333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17783,144.73367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,4,Victoria,,-38.027,145.075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,4,Victoria,,-38.027,145.075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88533,144.93833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97,144.9,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97,144.9,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.02317,144.74517,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25333,145.00667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.7825,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25567,145.01033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.02317,144.74517,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25417,145.00333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25567,145.01033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25567,145.01033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.99583,144.71833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03567,145.01183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01917,144.745,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88533,144.93833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.169,144.74733,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11167,144.56417,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01917,144.745,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.9285,144.90833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.08567,144.92833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01917,144.745,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1125,144.38583,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.9315,144.90667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.99583,144.71833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25567,145.01033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01917,144.745,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01667,145.04867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1125,144.38583,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01167,145.04333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97,144.9,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03667,144.87317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.2575,145.01,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.9315,144.90667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88533,144.93833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.08567,144.92833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03567,145.01183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.7825,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88583,144.94033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.08567,144.92833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25333,145.00667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03667,144.87317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.995,144.7235,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.99583,144.71833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.995,144.7235,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11167,144.56417,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.106,144.4,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88533,144.93833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,4,Victoria,,-38.027,145.075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.2575,145.01,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11167,144.56417,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17783,144.73367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.16917,144.75983,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25333,145.00667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.9315,144.90667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17783,144.73367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03667,144.87317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01167,145.04333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.02317,144.74517,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25333,145.00667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,4,Victoria,,-38.027,145.075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25033,144.98367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25417,145.00333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.7825,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.995,144.7235,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11167,144.56417,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.169,144.74733,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25333,145.00667,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11167,144.56417,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.7825,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1125,144.38583,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,4,Victoria,,-38.027,145.075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.2575,145.01,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17333,144.78317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01167,145.04333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.106,144.4,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.79467,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97333,144.90183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01667,145.04867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01667,145.04867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17783,144.73367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97,144.9,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.9285,144.90833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05,144.87083,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.08567,144.92833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.08567,144.92833,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03667,144.87317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01667,145.04867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.25567,145.01033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.0365,144.755,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17783,144.73367,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88583,144.94033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03567,145.01183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88583,144.94033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03583,144.77333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03667,144.87317,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.03817,145.01167,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01167,145.04333,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17617,144.76233,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.106,144.4,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.24667,144.9935,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.88583,144.94033,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-37.97,144.9,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.9075,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.20167,144.90533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.02317,144.74517,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.01667,145.04867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.05833,144.793,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.17567,144.73183,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.1755,144.74533,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.11067,144.564,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.07433,144.92867,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
-1990,3,Victoria,,-38.00583,145.05683,Port Phillip Bay Environmental Study Data 1992-1996 - trawl records
 2020,12,Western Australia,,-33.5,115.5,Earth Guardians Weekly Feed
 2019,12,South Australia,,-34.99449,137.75948,Earth Guardians Weekly Feed
 2021,4,Western Australia,,-31.9,115.7,Earth Guardians Weekly Feed
@@ -1260,7 +1034,6 @@ year,month,state,locality,lat,lon,dataSource
 ,,South Australia,Coast,-36.0,134.0,"NMNH Extant Specimen Records (USNM, US)"
 ,,South Australia,,-36.0,134.0,"NMNH Extant Specimen Records (USNM, US)"
 ,,South Australia,,-36.0,134.0,"NMNH Extant Specimen Records (USNM, US)"
-1885,9,South Australia,,-35.0,138.0,"NMNH Extant Specimen Records (USNM, US)"
 ,,Victoria,"Port Phillip Bay, Queenscliff",-38.27,144.67,"NMNH Extant Specimen Records (USNM, US)"
 ,,South Australia,,-35.0,138.0,"NMNH Extant Specimen Records (USNM, US)"
 2012,8,Tasmania,Flinders Commonwealth Marine Reserve,-40.5075,148.6295,"Flinders and Tasman Fracture Australian Marine Parks Pilot Survey- Shelf Baited Underwater Video (BRUV) component, Australia  (2012-2015)"
@@ -1353,20 +1126,6 @@ year,month,state,locality,lat,lon,dataSource
 2021,9,,3,-42.20502,148.48649,"Stereo BRUV sampling of Freycinet  Australian Marine Park and nearby Trap reef and Governor Island Marine Reserve, Tasmania, Australia (2016 and 2021)"
 2021,8,,27,-41.68234,148.4112,"Stereo BRUV sampling of Freycinet  Australian Marine Park and nearby Trap reef and Governor Island Marine Reserve, Tasmania, Australia (2016 and 2021)"
 2021,9,,9,-42.18998,148.54815,"Stereo BRUV sampling of Freycinet  Australian Marine Park and nearby Trap reef and Governor Island Marine Reserve, Tasmania, Australia (2016 and 2021)"
-1991,2,Tasmania,,-40.405,144.967,Australian Institute of Marine Science - Bioresources Library
-1989,1,South Australia,,-35.572,137.50301,Australian Institute of Marine Science - Bioresources Library
-1979,7,,,-19.78,116.41,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.86,118.01,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,8,,,-19.65,116.26,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,8,,,-19.61,116.35,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.6,116.46,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.78,116.48,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,8,,,-19.53,116.38,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,8,,,-19.53,116.65,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.78,116.41,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.73,118.06,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,8,,,-19.51,116.53,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
-1979,7,,,-19.78,116.48,"Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)"
 2023,3,Victoria,St Leonards Reef,-38.17019,144.72165,"Fish and invertebrate communities show greater day and night partitioning on tropical than temperate reefs from visual census surveys, Australia (2020-2023)"
 2022,3,Tasmania,Waubs Bay Inner,-41.86969,148.30285,"Fish and invertebrate communities show greater day and night partitioning on tropical than temperate reefs from visual census surveys, Australia (2020-2023)"
 2023,4,Tasmania,Primrose Sands,-42.89809,147.66899,"Fish and invertebrate communities show greater day and night partitioning on tropical than temperate reefs from visual census surveys, Australia (2020-2023)"
@@ -1374,142 +1133,45 @@ year,month,state,locality,lat,lon,dataSource
 2022,2,Tasmania,Darlington North,-42.57658,148.06207,"Fish and invertebrate communities show greater day and night partitioning on tropical than temperate reefs from visual census surveys, Australia (2020-2023)"
 2004,,Queensland,"Townsville, Queensland, Australia",-19.25,146.8,Santa Barbara Museum of Natural History - Invertebrate Zoology
 2023,7,Tasmania,,-39.47778,148.5561,Australian Museum provider for OZCAM
-1898,2,New South Wales,,-33.531113,151.55222,Australian Museum provider for OZCAM
 2024,5,Tasmania,,-40.265835,148.71278,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-40.33,148.76334,Australian Museum provider for OZCAM
 2012,8,New South Wales,,-35.048332,150.68333,Australian Museum provider for OZCAM
 2024,5,Tasmania,,-40.327778,148.76584,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-39.47778,148.5561,Australian Museum provider for OZCAM
-1909,,New South Wales,,-33.55,151.21666,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-40.33,148.76334,Australian Museum provider for OZCAM
-1912,,New South Wales,,-33.85472,151.24667,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-39.482777,148.5775,Australian Museum provider for OZCAM
-1983,8,New South Wales,,-33.8,151.28334,Australian Museum provider for OZCAM
-1898,3,New South Wales,,-33.7,151.41667,Australian Museum provider for OZCAM
 2024,5,New South Wales,,-35.949165,150.25389,Australian Museum provider for OZCAM
 2024,5,Tasmania,,-40.265835,148.71278,Australian Museum provider for OZCAM
-1983,10,New South Wales,,-33.801666,151.28334,Australian Museum provider for OZCAM
 2015,12,,,-33.555557,130.68361,Australian Museum provider for OZCAM
-1983,2,New South Wales,,-33.801666,151.29666,Australian Museum provider for OZCAM
 2012,8,New South Wales,,-35.048332,150.68333,Australian Museum provider for OZCAM
 2012,8,New South Wales,,-35.048332,150.68333,Australian Museum provider for OZCAM
-1981,9,New South Wales,,-33.801666,151.29666,Australian Museum provider for OZCAM
-1981,7,New South Wales,,-30.366667,153.41667,Australian Museum provider for OZCAM
-1990,11,New South Wales,,-28.358334,153.65,Australian Museum provider for OZCAM
-1928,4,New South Wales,,-33.983334,151.2,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-39.482777,148.5775,Australian Museum provider for OZCAM
-1973,5,New South Wales,,-34.001945,150.26944,Australian Museum provider for OZCAM
 2024,5,Tasmania,,-40.265835,148.71278,Australian Museum provider for OZCAM
-1979,5,New South Wales,,-34.108334,151.225,Australian Museum provider for OZCAM
 2023,7,Tasmania,,-40.105556,148.74777,Australian Museum provider for OZCAM
 ,,Victoria,,-38.47,145.02,Museums Victoria provider for OZCAM
-1991,1,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1990,10,New South Wales,"Hyams Beach, Jervis Bay",-35.1,150.7,Museums Victoria provider for OZCAM
-1991,1,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1982,7,,Between Wangami and Kapati Island,-41.0,175.0,Museums Victoria provider for OZCAM
 ,,Victoria,Westernport Bay,-38.53,145.35,Museums Victoria provider for OZCAM
-1989,10,New South Wales,"Hyams Beach, Jervis Bay",-35.1,150.7,Museums Victoria provider for OZCAM
 2008,1,Victoria,"Port Phillip Bay, Rye Pier",-38.38,144.83,Museums Victoria provider for OZCAM
-1991,3,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1989,10,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1990,4,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1989,10,New South Wales,"Hyams Beach, Jervis Bay",-35.1,150.7,Museums Victoria provider for OZCAM
 2005,1,Victoria,"Port Phillip Bay, St Leonards Jetty",-38.1703,144.72,Museums Victoria provider for OZCAM
-1989,10,New South Wales,"Collingwood Beach, Jervis Bay",-35.07,150.67,Museums Victoria provider for OZCAM
-1989,1,New South Wales,"Collingwood Beach, Jervis Bay",-35.07,150.67,Museums Victoria provider for OZCAM
-1980,11,Tasmania,"Central Bass Strait, 20 km NNE of North Point",-40.53,145.38,Museums Victoria provider for OZCAM
-1966,7,,Mar del plata,-45.48,-66.87,Museums Victoria provider for OZCAM
-1989,10,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1983,3,Victoria,"Portarlington, Steele Rock (lat./ long. for Portarlington)",-38.1,144.65,Museums Victoria provider for OZCAM
-1990,4,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1968,12,Victoria,Flinders,-38.48,145.03,Museums Victoria provider for OZCAM
-1980,11,Tasmania,"Central Bass Strait, 35 km E of Cape Farewell, King Island,",-39.5467,144.35,Museums Victoria provider for OZCAM
-1996,7,New South Wales,Wallaga Lake,-36.35,150.05,Museums Victoria provider for OZCAM
-1981,4,South Australia,,-34.0,137.17,Museums Victoria provider for OZCAM
-1990,1,New South Wales,"Hyams Beach, Jervis Bay",-35.1,150.7,Museums Victoria provider for OZCAM
-1973,10,Victoria,Shoreham,-38.43,145.05,Museums Victoria provider for OZCAM
 ,,Victoria,Corio bay,-38.12,144.48,Museums Victoria provider for OZCAM
-1957,9,Victoria,Portsea,-38.32,144.72,Museums Victoria provider for OZCAM
 2005,1,Victoria,"Port Phillip Bay, St Leonards Jetty",-38.1703,144.72,Museums Victoria provider for OZCAM
 2008,1,Victoria,"Wilsons Promontory, Refuge Cove",-39.03,146.45,Museums Victoria provider for OZCAM
-1982,11,Victoria,San Remo Channel,-38.53,145.35,Museums Victoria provider for OZCAM
-1974,3,Victoria,"Crib Point, Western Port",-38.35,145.22,Museums Victoria provider for OZCAM
-1989,7,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
 ,,Victoria,Geelong,-38.13,144.37,Museums Victoria provider for OZCAM
-1971,11,Victoria,Merricks Beach,-38.4,145.12,Museums Victoria provider for OZCAM
-1989,1,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1985,2,Victoria,"Stn. 1, Off St Leonards",-38.15,144.759,Museums Victoria provider for OZCAM
-1981,2,Tasmania,"Central Bass Strait, 20 km ENE of Bold Head, King Island",-40.0,144.348,Museums Victoria provider for OZCAM
-1996,7,New South Wales,Wallaga Lake,-36.35,150.05,Museums Victoria provider for OZCAM
-1980,11,Tasmania,"Central Bass Strait, 23 km E of Cape Rochon, Three Hummock Island",-40.37,145.283,Museums Victoria provider for OZCAM
-1991,1,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1988,10,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1982,7,,Between Wanganui and Kapiti Islands,-41.0,175.0,Museums Victoria provider for OZCAM
-1933,8,Victoria,"Port Phillip Bay, Altona Pier",-37.87,144.82,Museums Victoria provider for OZCAM
-1991,1,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1988,10,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1990,10,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1990,8,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1980,11,Tasmania,"Central Bass Strait, 8 km SE of Cape Adansan, Three Hummock Island",-40.5183,145.067,Museums Victoria provider for OZCAM
-1960,3,Victoria,Balnarring,-38.4,145.15,Museums Victoria provider for OZCAM
-1991,1,New South Wales,Hare Bay,-35.02,150.77,Museums Victoria provider for OZCAM
-1990,8,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1981,7,Western Australia,Great Australian Bight,-33.58,124.8,Museums Victoria provider for OZCAM
-1989,4,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1991,1,New South Wales,Long Beach,-36.97,149.93,Museums Victoria provider for OZCAM
-1998,5,Western Australia,"Coombes Reserve, Mosman Bay, Swan River inlet, Perth",-32.0079,115.773,Museums Victoria provider for OZCAM
-1990,10,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
 2016,11,Victoria,"Gabo Island Harbour, near jetty",-37.558,149.908,Museums Victoria provider for OZCAM
-1981,2,Tasmania,"Central Bass Strait, 60 km ENE of Bold Head, King Island",-39.9402,144.801,Museums Victoria provider for OZCAM
 2007,4,Western Australia,Rockingham Grain Jetty,-32.2556,115.748,Museums Victoria provider for OZCAM
-1982,2,Victoria,"Wilsons Promontory, Refuge Cove, south headland",-39.04,146.465,Museums Victoria provider for OZCAM
-1959,11,Victoria,off Port Albert,-38.78,146.75,Museums Victoria provider for OZCAM
-1981,2,Victoria,"Central Bass Strait, 64 km SSW of Cape Schanck",-39.0133,144.578,Museums Victoria provider for OZCAM
-1986,11,Victoria,"Western Port, Philip Island, 1km W of Cowes",-38.47,145.17,Museums Victoria provider for OZCAM
 2007,4,Western Australia,"Town jetty, Albany",-35.0,117.87,Museums Victoria provider for OZCAM
 ,,Victoria,"Limeburners Point, Geelong",-38.13,144.38,Museums Victoria provider for OZCAM
-1991,8,New South Wales,Jibbon Beach,-34.07,151.15,Museums Victoria provider for OZCAM
-1994,5,South Australia,"Encounter Bay, off Murray River mouth",-36.0402,138.516,Museums Victoria provider for OZCAM
-1967,4,Victoria,Shoreham,-38.43,145.05,Museums Victoria provider for OZCAM
-1982,2,Victoria,"Wilsons Promontory, Five Mile Beach",-38.95,146.45,Museums Victoria provider for OZCAM
-1974,6,Victoria,"Western Port, Crib Point",-38.35,145.22,Museums Victoria provider for OZCAM
-1990,4,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
 ,,Victoria,Port Phillip Heads,-38.3,144.63,Museums Victoria provider for OZCAM
-1969,3,Victoria,Bluff Point to Stockyard Point,-38.32,145.52,Museums Victoria provider for OZCAM
-1990,1,New South Wales,"Collingwood Beach, Jervis Bay",-35.07,150.67,Museums Victoria provider for OZCAM
-1985,11,South Australia,Edithburgh jetty,-35.08,137.75,Museums Victoria provider for OZCAM
-1960,3,Victoria,Portsea Pier,-38.32,144.72,Museums Victoria provider for OZCAM
 2007,4,Western Australia,"Town jetty, Albany",-35.0,117.87,Museums Victoria provider for OZCAM
-1979,9,South Australia,"Stansbury, western side of Gulf St Vincent",-34.92,137.8,Museums Victoria provider for OZCAM
-1986,11,Queensland,Lizard Island,-14.67,145.47,Museums Victoria provider for OZCAM
 ,,Victoria,Balnarring,-38.4,145.13,Museums Victoria provider for OZCAM
-1990,8,New South Wales,"Green Patch, Jervis Bay",-35.05,150.73,Museums Victoria provider for OZCAM
-1989,1,New South Wales,"Callala, Jervis Bay",-35.03,150.67,Museums Victoria provider for OZCAM
-1981,11,Queensland,North Stradbroke Island,-27.58,153.45,Museums Victoria provider for OZCAM
-1996,7,New South Wales,Wallaga Lake,-36.35,150.05,Museums Victoria provider for OZCAM
-1997,5,South Australia,"Moonta Jetty, Spencer Gulf",-34.075,137.543,Museums Victoria provider for OZCAM
 ,,Victoria,Altona,-37.87,144.82,Museums Victoria provider for OZCAM
-1981,7,Western Australia,Great Australian Bight,-33.58,124.8,Museums Victoria provider for OZCAM
-1967,5,Victoria,Western Port Bay,-38.37,145.53,Museums Victoria provider for OZCAM
-1987,2,Victoria,"Western Port, off Shoreham",-38.445,145.062,Museums Victoria provider for OZCAM
-1990,9,New South Wales,Jibbon Beach,-34.07,151.15,Museums Victoria provider for OZCAM
-1990,1,New South Wales,Hare Bay,-35.02,150.77,Museums Victoria provider for OZCAM
-1990,1,New South Wales,"Long Beach, Jervis Bay",-35.02,150.77,Museums Victoria provider for OZCAM
-1981,2,Victoria,"Walkerville, Waratah Bay",-38.87,145.98,Museums Victoria provider for OZCAM
-1986,9,Tasmania,off Flinders Island,-40.1917,148.465,Museums Victoria provider for OZCAM
-1996,7,New South Wales,Wallaga Lake,-36.35,150.05,Museums Victoria provider for OZCAM
-1996,7,New South Wales,Wallaga Lake,-36.35,150.05,Museums Victoria provider for OZCAM
 2008,1,Victoria,"Port Phillip Bay, St Leonards Jetty",-38.1703,144.72,Museums Victoria provider for OZCAM
 2009,1,Victoria,"Port Phillip Bay, Rye Pier",-38.38,144.83,Museums Victoria provider for OZCAM
 ,,Queensland,Moreton Bay,-27.466667,153.016667,Queensland Museum provider for OZCAM
 ,,Queensland,Moreton Bay,-27.466667,153.016667,Queensland Museum provider for OZCAM
 ,,Queensland,Townsville,-19.2652526,146.8175043,Queensland Museum provider for OZCAM
-1960,3,Queensland,Moreton Bay,-27.466667,153.016667,Queensland Museum provider for OZCAM
 ,,Queensland,Moreton Bay,-27.466667,153.016667,Queensland Museum provider for OZCAM
 ,,New South Wales,Sydney,-33.866667,151.2,Queensland Museum provider for OZCAM
 ,,Queensland,Moreton Bay,-27.466667,153.016667,Queensland Museum provider for OZCAM
-1969,12,Tasmania,Three Hummock Island,-40.43332,144.88333,Queen Victoria Museum Art Gallery provider for OZCAM
-1972,,Tasmania,Kelso,-41.1,146.78333,Queen Victoria Museum Art Gallery provider for OZCAM
 ,,Western Australia,Denham,-25.92,113.53,South Australian Museum Adelaide provider for OZCAM
 ,,Western Australia,Denham,-25.92,113.53,South Australian Museum Adelaide provider for OZCAM
 ,,South Australia,Franklin Island,-32.45,133.67,South Australian Museum Adelaide provider for OZCAM
@@ -1633,64 +1295,33 @@ year,month,state,locality,lat,lon,dataSource
 ,,Western Australia,Denham,-25.92,113.53,South Australian Museum Adelaide provider for OZCAM
 ,,South Australia,Pearson Island,-35.97,134.28,South Australian Museum Adelaide provider for OZCAM
 ,,South Australia,Pearson Island,-35.97,134.28,South Australian Museum Adelaide provider for OZCAM
-1984,7,North Island,Rangaunu Bay,-34.8417,173.178,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1960,12,North Island,"Eastbourne, Wellington Harbour",-41.28,174.9,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1957,4,North Island,"powerhouse, Evans Bay, Wellington",-41.3167,174.8,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1952,11,North Island,"Ngauranga, Wellington",-41.2417,174.825,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1962,,North Island,"Tryphena, Great Barrier Island",-36.3067,175.483,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1953,7,North Island,Cavalli Islands,-34.98,173.97,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1953,12,North Island,Cavalli Islands,-34.98,173.97,Mollusc collection at Museum of New Zealand Te Papa Tongarewa (M.)
-1991,3,New South Wales,Jervis Bay: Collingwood Beach,-35.061,150.674,Tasmanian Museum and Art Gallery provider for OZCAM
-1990,12,Tasmania,Lauderdale: Roches Beach,-43.5185,147.8253,Tasmanian Museum and Art Gallery provider for OZCAM
 2002,6,Tasmania,Lauderdale: Seven Mile Beach,-42.847,147.531,Tasmanian Museum and Art Gallery provider for OZCAM
-1971,12,Tasmania,Eastern Bass Strait: Baynes Island: offshore,-40.771,147.938,Tasmanian Museum and Art Gallery provider for OZCAM
-1991,8,New South Wales,Port Hacking: Jibbon Beach,-34.0814,151.164,Tasmanian Museum and Art Gallery provider for OZCAM
-1995,9,Tasmania,Maria Island: Darlington Bay,-42.5819,148.0604,Tasmanian Museum and Art Gallery provider for OZCAM
 2024,5,Tasmania,Tasman Sea: 48 km ESE of Clarke Island_stn IN2024_V03_045,-40.6802,148.7394,Tasmanian Museum and Art Gallery provider for OZCAM
 2024,5,Tasmania,Tasman Sea: 11 km NE of Binalong Bay_stn IN2024_V03_034,-41.2277,148.4399,Tasmanian Museum and Art Gallery provider for OZCAM
-1989,4,New South Wales,Jervis Bay: Long Beach,-35.032,150.785,Tasmanian Museum and Art Gallery provider for OZCAM
 2001,11,Tasmania,Police Point,-43.2579,147.0679,Tasmanian Museum and Art Gallery provider for OZCAM
-1990,4,New South Wales,Jervis Bay: Hare Bay,-35.015,150.767,Tasmanian Museum and Art Gallery provider for OZCAM
 2001,11,Tasmania,Police Point,-43.2579,147.0679,Tasmanian Museum and Art Gallery provider for OZCAM
-1962,4,Tasmania,Maria Island (unlocalised),-42.58,148.06,Tasmanian Museum and Art Gallery provider for OZCAM
 2024,5,Tasmania,Tasman Sea: 10.5 km NE of Bicheno_stn IN2024_V03_014,-41.8596,148.4349,Tasmanian Museum and Art Gallery provider for OZCAM
-1997,4,Tasmania,Flinders Island: Palana Beach,-39.761,147.881,Tasmanian Museum and Art Gallery provider for OZCAM
 2003,10,Tasmania,Huon Estuary: Deep Bay,-43.211,147.112,Tasmanian Museum and Art Gallery provider for OZCAM
-1954,12,Tasmania,Flinders Island: Lady Barron: Fisher Island,-40.2168942,148.2358849,Tasmanian Museum and Art Gallery provider for OZCAM
 2024,12,Tasmania,Port Latta: Brickmakers Beach,-40.8519,145.3667,Tasmanian Museum and Art Gallery provider for OZCAM
 2004,11,Tasmania,Maria Island: Darlington Bay,-42.5819,148.0604,Tasmanian Museum and Art Gallery provider for OZCAM
 2004,11,Tasmania,Maria Island: Darlington Bay,-42.5819,148.0604,Tasmanian Museum and Art Gallery provider for OZCAM
 2023,7,New South Wales,Tasman Sea: 7 km South of Green Cape_stn IN2023_V05_078,-37.323,150.059,Tasmanian Museum and Art Gallery provider for OZCAM
 2004,11,Tasmania,Maria Island: Darlington Bay,-42.5819,148.0604,Tasmanian Museum and Art Gallery provider for OZCAM
-1992,1,Tasmania,Lauderdale: Seven Mile Beach,-42.847,147.531,Tasmanian Museum and Art Gallery provider for OZCAM
 2012,2,Tasmania,D'Entrecasteaux Channel: Green Island: offshore,-43.198,147.289,Tasmanian Museum and Art Gallery provider for OZCAM
-1991,3,New South Wales,Jervis Bay: Hare Bay,-35.015,150.767,Tasmanian Museum and Art Gallery provider for OZCAM
 2014,2,Tasmania,Derwent Estuary (unlocalised),-43.0319183,147.3677413,Tasmanian Museum and Art Gallery provider for OZCAM
-1971,8,Tasmania,Flinders Island: North East River: mouth,-39.731,147.958,Tasmanian Museum and Art Gallery provider for OZCAM
 2007,,Western Australia,,-28.819,113.9078,Western Australian Museum provider for OZCAM
-1970,,Western Australia,,-32.2666,115.7333,Western Australian Museum provider for OZCAM
-1978,,Western Australia,,-32.1666,115.7333,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-28.819,113.9078,Western Australian Museum provider for OZCAM
-1959,,Western Australia,,-25.7666,113.7167,Western Australian Museum provider for OZCAM
-1915,,Western Australia,,-32.2166,115.6583,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-28.819,113.9078,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-34.0809,123.2709,Western Australian Museum provider for OZCAM
 2007,,,,-34.264,119.6515,Western Australian Museum provider for OZCAM
 2007,,,,-30.3306,114.904,Western Australian Museum provider for OZCAM
-1981,,Western Australia,,-35.05,117.8833,Western Australian Museum provider for OZCAM
-1976,,Western Australia,,-33.6333,115.34,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-28.73,114.0073,Western Australian Museum provider for OZCAM
-1960,,Western Australia,,-32.0,115.55,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-32.0465,115.4925,Western Australian Museum provider for OZCAM
 2007,,,,-30.3443,114.8887,Western Australian Museum provider for OZCAM
 2007,,,,-30.3418,114.9055,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-32.0448,115.5005,Western Australian Museum provider for OZCAM
 ,,Western Australia,,-20.6333,116.6667,Western Australian Museum provider for OZCAM
-1974,,Western Australia,,-34.2833,115.1667,Western Australian Museum provider for OZCAM
-1972,,Western Australia,,-32.1666,115.7333,Western Australian Museum provider for OZCAM
-1957,,Western Australia,,-32.1666,115.7333,Western Australian Museum provider for OZCAM
 2007,,Western Australia,,-33.5636,114.979,Western Australian Museum provider for OZCAM
-1960,,Western Australia,,-33.6,115.1333,Western Australian Museum provider for OZCAM
 2017,1,Queensland,"Tinnanbar QLD 4650, Australia",-25.757605,152.957228,ALA species sightings and OzAtlas
 2013,2,South Australia,"LOT 196 Swaffers Road, Lipson SA 5607, Australia",-34.24239,136.269028,ALA species sightings and OzAtlas
 ,,Queensland,,-25.755064,152.956116,ALA species sightings and OzAtlas
@@ -1715,7 +1346,6 @@ year,month,state,locality,lat,lon,dataSource
 2015,12,South Australia,,-35.51862,138.16318,SA Fauna
 2016,5,South Australia,,-35.68159,137.61312,SA Fauna
 2016,1,South Australia,,-35.72886,138.01219,SA Fauna
-1996,12,South Australia,,-34.8476,138.4475,SA Fauna
 2016,5,South Australia,,-35.68556,137.61239,SA Fauna
 2016,4,South Australia,The Pages (CP),-35.75887,138.3065,SA Fauna
 2016,1,South Australia,,-35.71589,137.93613,SA Fauna
@@ -1739,100 +1369,6 @@ year,month,state,locality,lat,lon,dataSource
 2016,1,South Australia,,-35.71584,137.93798,SA Fauna
 2015,12,South Australia,,-35.55385,138.12799,SA Fauna
 2016,5,South Australia,,-35.68159,137.61312,SA Fauna
-1993,8,New South Wales,,-37.37083,149.97334,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,5,,Aimed,-37.31,150.095,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,9,,,-36.375,150.16584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-38.94,149.49667,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,5,,Aimed,-37.38,150.045,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,8,New South Wales,,-36.38167,150.13417,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-38.72,148.30084,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,5,New South Wales,Survey,-37.425,150.005,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,8,Victoria,,-37.81333,149.03817,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,9,New South Wales,,-36.36467,150.10392,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,12,Victoria,Aimed,-37.59999,149.7975,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.35083,150.15584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-37.92166,148.22917,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,12,New South Wales,Survey,-36.92167,149.96333,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,8,Victoria,,-37.58333,149.865,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,8,New South Wales,,-37.295,150.02,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,8,New South Wales,,-36.3825,150.1375,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,4,,Survey,-38.61666,148.35334,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,5,Victoria,,-37.59917,149.8375,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,8,,,-37.88166,149.085,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-38.95,148.3275,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,Victoria,,-37.80916,149.0475,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-39.00833,146.58333,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,8,New South Wales,,-37.39583,149.9825,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-38.95583,148.49333,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,8,New South Wales,,-36.3675,150.10958,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-37.27833,150.03168,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1993,7,,,-38.97408,146.55967,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1994,8,Victoria,,-37.8275,149.055,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1996,11,New South Wales,Survey,-36.37416,150.11584,"CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997"
-1981,8,,,-32.3,131.41667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-33.35,130.85,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.275,131.425,"CSIRO, fish surveys by the Soela, 1980s"
-1981,12,,,-32.23333,131.36667,"CSIRO, fish surveys by the Soela, 1980s"
-1980,1,,,-32.75,125.71667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,11,,,-33.26666,125.4,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.26666,131.45,"CSIRO, fish surveys by the Soela, 1980s"
-1981,12,,,-32.48333,131.35,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.38333,124.8,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.275,131.39167,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-34.40833,134.01667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,12,,,-32.5,126.73334,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.275,131.39167,"CSIRO, fish surveys by the Soela, 1980s"
-1981,11,,,-33.34166,124.75,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-33.33333,130.18334,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.3,132.46667,"CSIRO, fish surveys by the Soela, 1980s"
-1980,9,,,-33.16667,128.3,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.2,129.49167,"CSIRO, fish surveys by the Soela, 1980s"
-1980,1,,,-33.24166,125.74167,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.28333,131.41667,"CSIRO, fish surveys by the Soela, 1980s"
-1980,1,,,-32.75833,125.71667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-34.34166,123.70834,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.275,131.40834,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.35,131.46667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.28333,131.41667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.28333,131.41667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-33.25,127.21667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.73333,133.01667,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-34.55,123.75,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-33.39166,130.89167,"CSIRO, fish surveys by the Soela, 1980s"
-1980,5,,,-33.5,131.85833,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.91666,124.8,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.6,124.8,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.23333,131.4,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.24166,126.30834,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.31666,131.4,"CSIRO, fish surveys by the Soela, 1980s"
-1981,12,,,-33.4,127.35,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-33.06667,127.18334,"CSIRO, fish surveys by the Soela, 1980s"
-1981,8,,,-32.28333,131.375,"CSIRO, fish surveys by the Soela, 1980s"
-1981,12,,,-32.975,128.99167,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.23333,125.4,"CSIRO, fish surveys by the Soela, 1980s"
-1981,7,,,-33.53333,127.2,"CSIRO, fish surveys by the Soela, 1980s"
-1994,2,New South Wales,,-37.316665,150.01417,"CSIRO, Cruise SS199402, Marine Biological Survey, Southeast Australia, 1994"
-1994,2,New South Wales,,-37.306665,149.998335,"CSIRO, Cruise SS199402, Marine Biological Survey, Southeast Australia, 1994"
 2016,1,Victoria,P.S.Ozone,-38.14,144.71,Reef Life Survey: Global reef fish dataset
 2009,10,Victoria,Fishermansrock,-38.23,145.03,Reef Life Survey: Global reef fish dataset
 2015,1,New South Wales,Shelly Beach,-33.8,151.3,Reef Life Survey: Global reef fish dataset
@@ -1883,57 +1419,7 @@ year,month,state,locality,lat,lon,dataSource
 2009,2,,"The Hoof, Phillip Island",-29.12,167.96,Reef Life Survey: Global reef fish dataset
 2006,3,Tasmania,"Grants Point West, 10m North East",-41.25027,148.33548,"Condition of rocky reef communities around Tasmania: fish surveys, Australia (1992-1995 and 2006-2007)"
 2006,11,Tasmania,"Friendly Point, 10m Bicheno External",-42.05611,148.30429,"Condition of rocky reef communities around Tasmania: fish surveys, Australia (1992-1995 and 2006-2007)"
-1994,1,Tasmania,Rockslide Tasman Peninsular,-42.99812,147.95401,"Condition of rocky reef communities around Tasmania: fish surveys, Australia (1992-1995 and 2006-2007)"
 2006,4,Tasmania,"Grants Point West, 5m North East",-41.25111,148.33565,"Condition of rocky reef communities around Tasmania: fish surveys, Australia (1992-1995 and 2006-2007)"
-1991,3,New South Wales,Jervis Bay,-35.0384,150.786,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,4,Australian Capital Territory,Jervis Bay,-35.1368,150.746,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1991,3,New South Wales,Jervis Bay,-34.9941,150.76,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,4,Australian Capital Territory,Jervis Bay,-35.138,150.744,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-34.9941,150.76,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,4,New South Wales,Jervis Bay,-35.0641,150.673,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,10,New South Wales,Jervis Bay,-35.0338,150.785,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,10,Australian Capital Territory,Jervis Bay,-35.1368,150.746,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,Australian Capital Territory,Jervis Bay,-35.1376,150.721,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,10,New South Wales,Jervis Bay,-35.0616,150.674,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,New South Wales,Jervis Bay,-34.9933,150.757,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1991,3,New South Wales,Jervis Bay,-35.0665,150.674,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-35.0357,150.786,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,8,New South Wales,Jervis Bay,-34.9941,150.76,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-34.9941,150.76,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-34.9941,150.76,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,4,New South Wales,Jervis Bay,-35.0321,150.784,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-35.1214,150.697,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,New South Wales,Jervis Bay,-34.9933,150.757,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,New South Wales,Jervis Bay,-35.0306,150.782,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-35.0292,150.779,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,8,New South Wales,Jervis Bay,-34.9925,150.753,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,10,Australian Capital Territory,Jervis Bay,-35.1376,150.721,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-35.0292,150.779,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,4,New South Wales,Jervis Bay,-35.0338,150.785,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,Australian Capital Territory,Jervis Bay,-35.1376,150.721,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,11,New South Wales,Jervis Bay,-35.0591,150.674,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,7,New South Wales,Jervis Bay,-35.0321,150.784,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-35.0165,150.689,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,New South Wales,Jervis Bay,-35.0384,150.786,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,10,New South Wales,Jervis Bay,-35.1079,150.693,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,4,Australian Capital Territory,Jervis Bay,-35.1376,150.721,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,10,New South Wales,Jervis Bay,-35.1184,150.695,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,7,Australian Capital Territory,Jervis Bay,-35.1299,150.711,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,10,Australian Capital Territory,Jervis Bay,-35.1299,150.711,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,4,New South Wales,Jervis Bay,-35.0338,150.785,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-34.995,150.762,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-34.995,150.762,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1991,1,New South Wales,Jervis Bay,-34.9933,150.757,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-35.0306,150.782,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,10,Australian Capital Territory,Jervis Bay,-35.1359,150.717,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,New South Wales,Jervis Bay,-35.0338,150.785,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-35.0616,150.674,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,7,Australian Capital Territory,Jervis Bay,-35.1376,150.721,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,10,New South Wales,Jervis Bay,-34.9933,150.757,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1988,10,Australian Capital Territory,Jervis Bay,-35.1238,150.699,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1990,1,New South Wales,Jervis Bay,-34.995,150.762,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-35.0292,150.779,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
-1989,1,New South Wales,Jervis Bay,-34.9925,150.753,Jervis Bay Marine Ecological Studies (JBMES) 1988-1991
 2008,12,Tasmania,North Bruny Island: Apollo Bay,-43.1585,147.294,Tasmanian Marine Molluscs Observational Records (2003-2017)
 2007,4,Tasmania,North Bruny Island: Roberts Point,-43.1436,147.287,Tasmanian Marine Molluscs Observational Records (2003-2017)
 2011,12,Tasmania,Carlton Beach: Spectacle Island,-42.8674,147.6004,Tasmanian Marine Molluscs Observational Records (2003-2017)
